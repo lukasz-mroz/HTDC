@@ -1,0 +1,19 @@
+﻿. . . Develop a program that 
+
+
+keeps track of coffee sales at a spe￾cialty coffee seller. 
+The sales receipt must include the kind of
+coffee, its price (per pound), and its weight (in pounds). . . .
+
+
+* keep track of coffee sales
+* receipt include: 
+- kind of coffee (e.g. Americana)
+- price per kilo (e.g. 12zł/kg)
+- weight (e.g. 1kg)
+
+
+Examples:
+
+1 kg of Americana at 12zl/kg
+3 kg of Frappe at 10zl/kg
