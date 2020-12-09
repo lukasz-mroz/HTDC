@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace Dates
+namespace RunnersLog
 {
   class Program
   {
     static void Main(string[] args)
     {
-      Date dater = new Date(08, 12, 2020);
+      var myBook2 = new Entry(new Date(30, 40, 2003), 23.4, 30, "hello"); ;
+      myBook2.GetHashCode();
       Console.WriteLine("Hello World!");
     }
   }

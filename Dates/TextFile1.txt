@@ -1,1 +1,5 @@
-﻿. . . Develop a program that helps you keep track of daily
+﻿. . . Develop a GPS-based navigation program for cars. The GPS
+device feeds the program with the current location at least once
+a second. The location is given as latitude and longitude.
+
+

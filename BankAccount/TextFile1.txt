@@ -1,0 +1,54 @@
+﻿. . . Develop a “bank account” program. The program keeps
+track of the balances in a person’s bank accounts. Each account
+has an id number and a customer’s name. There are three kinds
+of accounts: a checking account, a savings account, and a cer￾tificate of deposit 
+(CD). 
+Checking account information also in￾cludes the minimum balance. 
+Savings account includes the in￾terest rate. 
+A CD specifies the interest rate and the maturity
+date. Naturally, all three types come with a current balance. . . .
+Represent the following examples using your classes
+
+Main idea: keep tracking of balances
+Each account has: id and name
+three kinds of acc: checking, saving, certificate of date
+checking:
+id int,
+name string,
+minimum balance int,
+
+saving: 
+int id;
+string name;
+int min. balance;
+int interest rate;
+
+CD:
+int id;
+string name;
+int interest rate;
+Date maturity date;
+
+Date
+int day;
+int month;
+int year;
+
+
+Example: 
+Checking account of ID 1, named MojeKonto has 300 minimum balance;
+Saving account of ID 2, named Oszczedzane has 5000 minimum balance and 5% of interest rate;
+CD account of ID 3, named 
+
+
+
+
+
+
+
+
+1. Earl Gray, id# 1729, has $1,250 in a checking account with minimum
+balance of $500;
+2. Ima Flatt, id# 4104, has $10,123 in a certificate of deposit whose inter￾est rate is 4% and whose maturity date is June 1, 2005;
+3. Annie Proulx, id# 2992, has $800 in a savings account; the account
+yields interest at the rate of 3.5%.

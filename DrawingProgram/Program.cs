@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace Dates
+namespace DrawingProgram
 {
-  class Program
+  partial class Program
   {
     static void Main(string[] args)
     {
-      Date dater = new Date(08, 12, 2020);
+      IShape s = new Square(new CartPt(30, 40), 40);
+
       Console.WriteLine("Hello World!");
     }
   }

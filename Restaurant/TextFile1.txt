@@ -1,0 +1,6 @@
+﻿. . . Develop a program that helps a visitor navigate Manhattan’s restaurant scene. The program must be able to provide
+four pieces of information for each restaurant: its name, the
+kind of food it serves, its price range, and the closest intersection (street and avenue).
+Examples: (1) La Crepe, a French restaurant, on 7th Ave and
+65th Street, moderate prices; (2) Bremen Haus, a German restau￾rant on 2nd Ave and 86th Street, moderate; (3) Moon Palace, a
+Chinese restaurant on 10th Ave and 113th Street, inexpensive;

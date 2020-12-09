@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Dates
+namespace Restaurant
 {
   class Program
   {
     static void Main(string[] args)
     {
-      Date dater = new Date(08, 12, 2020);
+      var ex1 = new Restuarant("La crepe", "French", "moderate", new Place(30, 30));
       Console.WriteLine("Hello World!");
     }
   }

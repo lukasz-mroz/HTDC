@@ -1,0 +1,1 @@
+﻿. . . Develop a program that manages a runner’s training log.Every day the runner enters one entry about the day’s run. Eachentry includes the day’s date, the distance of the day’s run, theduration of the run, and a comment describing the runner’spost-run disposition. . . .

@@ -6,9 +6,11 @@ namespace Coffee
   {
     static void Main(string[] args)
     {
-      Coffee america = new Coffee("americana", 12, 1);
-      Coffee frappen = new Coffee("frappe", 10, 3);
-      Console.WriteLine("Hello World!");
+      Coffeer america = new Coffeer("americana", 12, 1);
+      Coffeer frappen = new Coffeer("frappe", 10, 3);
+      var result = frappen.Cost();
+      frappen.LighterThan(america);
+      Console.WriteLine(result);
     }
   }
 }

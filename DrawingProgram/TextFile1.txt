@@ -1,0 +1,6 @@
+﻿. . . Develop a drawing program that deals with three kinds of
+shapes on a Cartesian grid: squares, circles, and dots.
+A square’s location is specified via its north-west corner (see￾❅ )
+and its size. A circle’s essential properties are its center point
+(see￾❅ ) and its radius. A dot is drawn as a small disk of a fixed
+size with a radius of 3 pixels. . . .
