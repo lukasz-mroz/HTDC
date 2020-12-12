@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace DrawingProgram
+namespace DrawingProgramv2
 {
   partial class Program
   {

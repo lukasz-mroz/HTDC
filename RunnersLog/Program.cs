@@ -11,4 +11,9 @@ namespace RunnersLog
       Console.WriteLine("Hello World!");
     }
   }
+
+
+  // A Log is one of:
+  // - empty
+  // - 
 }
