@@ -22,12 +22,21 @@ namespace Coffee
     {
       return _price * _weight;
     }
+    /// <summary>
+    /// to determine whether THIS coffee's price is more than amt
+    /// </summary>
+    /// <param name="amt"></param>
+    /// <returns></returns>
     public bool MoreCents(int amt)
     {
       return _price > amt;
     }
 
-    
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="that"></param>
+    /// <returns></returns>
     public bool LighterThan(Coffeer that)
     {
       return _weight < that._weight;

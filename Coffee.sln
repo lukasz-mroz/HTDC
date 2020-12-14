@@ -37,7 +37,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RunnersLog", "RunnersLog", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DrawingPro", "DrawingPro", "{E55BB176-5E8B-483F-8659-4DB7851D41FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingProgramv2", "DrawingProgramv2\DrawingProgramv2.csproj", "{3541F3EB-37CB-4290-BBED-401E072D6B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawingProgramv2", "DrawingProgramv2\DrawingProgramv2.csproj", "{3541F3EB-37CB-4290-BBED-401E072D6B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingProgramv3", "DrawingProgramv3\DrawingProgramv3.csproj", "{F157A9CE-BD54-4EC0-BF37-3883EC079C91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{3541F3EB-37CB-4290-BBED-401E072D6B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3541F3EB-37CB-4290-BBED-401E072D6B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3541F3EB-37CB-4290-BBED-401E072D6B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F157A9CE-BD54-4EC0-BF37-3883EC079C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F157A9CE-BD54-4EC0-BF37-3883EC079C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F157A9CE-BD54-4EC0-BF37-3883EC079C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F157A9CE-BD54-4EC0-BF37-3883EC079C91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{7A2A7B65-7039-4EBE-920F-53F7EABD0473} = {B1662423-40D6-4159-B427-3340E0702622}
 		{EE226313-B94B-4BBE-9567-52E375610750} = {5A3BF511-2F25-4B49-AA84-2B09997D3473}
 		{3541F3EB-37CB-4290-BBED-401E072D6B68} = {E55BB176-5E8B-483F-8659-4DB7851D41FD}
+		{F157A9CE-BD54-4EC0-BF37-3883EC079C91} = {E55BB176-5E8B-483F-8659-4DB7851D41FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70CC5958-261E-487E-8F51-422EE69EF2CE}
