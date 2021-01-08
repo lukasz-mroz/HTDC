@@ -1,7 +1,7 @@
 ﻿using System;
 namespace DrawingProgramv2
 {
-  public class Rectangle
+  public class Rectangle : IShape
   {
     private CartPt _tlCorner;
     private int _width;
@@ -14,10 +14,14 @@ namespace DrawingProgramv2
       _height = height;
     }
 
-
-    public double Distance0()
+    public double area()
     {
-      return this.Distance0();
+      return 0;
+    }
+
+    public double distTo0()
+    {
+      throw new NotImplementedException();
     }
   }
 }

@@ -7,6 +7,7 @@
     private string _pricing;
     private Place _place;
 
+
     public Restuarant(string name, string kind, string pricing, Place place)
     {
       _name = name;

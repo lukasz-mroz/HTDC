@@ -12,7 +12,7 @@ namespace Restaurant
 
       ILoR mt = new MTListing();
       ILoR l1 = new ConsListing(ex1, mt);
-      ILoR l2 = new ConsListing(ex2, mt);
+      ConsListing l2 = new ConsListing(ex2, mt);
       ILoR l3 = new ConsListing(ex3, mt);
 
       ILoR all = new ConsListing(ex1, new ConsListing(ex2, new ConsListing(ex3, mt)));

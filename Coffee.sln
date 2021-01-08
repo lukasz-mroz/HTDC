@@ -43,7 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawingProgramv3", "Drawing
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Restaurant", "Restaurant", "{759A8DF1-5FD1-4773-A437-89C60CA41CB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{971E2E19-FD4B-468C-9888-9EFCADACCF1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{971E2E19-FD4B-468C-9888-9EFCADACCF1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Star", "Star\Star.csproj", "{20D92987-0407-435A-B2AA-7BBCDF735734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroC", "MicroC\MicroC.csproj", "{9220163E-AC18-449E-A3BF-A536CA7D0552}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +123,14 @@ Global
 		{971E2E19-FD4B-468C-9888-9EFCADACCF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{971E2E19-FD4B-468C-9888-9EFCADACCF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{971E2E19-FD4B-468C-9888-9EFCADACCF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D92987-0407-435A-B2AA-7BBCDF735734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D92987-0407-435A-B2AA-7BBCDF735734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D92987-0407-435A-B2AA-7BBCDF735734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D92987-0407-435A-B2AA-7BBCDF735734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9220163E-AC18-449E-A3BF-A536CA7D0552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9220163E-AC18-449E-A3BF-A536CA7D0552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9220163E-AC18-449E-A3BF-A536CA7D0552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9220163E-AC18-449E-A3BF-A536CA7D0552}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

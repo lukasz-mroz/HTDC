@@ -10,5 +10,15 @@
       _loc = loc;
       _size = size;
     }
+
+    public double area()
+    {
+      return _size * _size;
+    }
+
+    public double distTo0()
+    {
+      return _loc.distTo0();
+    }
   }
 }

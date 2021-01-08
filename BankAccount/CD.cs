@@ -12,7 +12,7 @@ namespace BankAccount
       _amount = amount;
     }
 
-    //
+   
     public double Interest()
     {
       if(0 <= _amount && _amount < 50000)

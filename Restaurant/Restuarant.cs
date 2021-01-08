@@ -2,6 +2,7 @@
 {
   public class Restuarant
   {
+
     private string _name;
     private string _kind;
     private string _pricing;

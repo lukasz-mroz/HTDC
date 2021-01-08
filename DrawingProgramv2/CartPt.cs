@@ -1,6 +1,7 @@
-﻿namespace DrawingProgramv2
+﻿using System;
+namespace DrawingProgramv2
 {
-  public class CartPt
+  public class CartPt : IShape
   {
     private int _x;
     private int _y;
@@ -9,6 +10,16 @@
     {
       _x = x;
       _y = y;
+    }
+
+    public double area()
+    {
+      throw new System.NotImplementedException();
+    }
+
+    public double distTo0()
+    {
+      return Math.Sqrt((_x * _x) + (_y * _y));
     }
   }
 }

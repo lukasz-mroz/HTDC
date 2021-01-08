@@ -7,6 +7,8 @@ namespace Coffee
     private int _price; // zł per kilo
     private int _weight; // kilograms
 
+    public int Price { get; set; }
+
     public Coffeer(string kind, int price, int weight)
     {
       _kind = kind;
