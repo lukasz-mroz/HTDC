@@ -4,7 +4,7 @@
   {
     //private int _width;
     //private int _height;
-    private readonly int _width;
+    private readonly object _width;
     private const int HEIGHT = 5;
     private static int depth;
 
@@ -16,6 +16,7 @@
     public int Width { get; set; }
     public int Height { get; set; }
 
+    /// here you should remember what kind of data you want to pass (as object) 
     public Room(int width, int height, IShape a, IShape b, IShape c, int asd)
     {
       Width = width;
@@ -25,6 +26,7 @@
       _c = c;
       _width = asd;
     }
+
     ///// <summary>
     /// the ration of area covered by furniture in THIS room
     /// </summary>

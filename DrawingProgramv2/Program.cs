@@ -17,11 +17,10 @@ namespace DrawingProgramv2
       Console.WriteLine(result2);
       Console.WriteLine(result3);
       Console.WriteLine(result4);
+      IShape c = new Rectangle(new CartPt(30, 40), 30, 30);
+      c.area();
+      d.distTo0();
 
-
-      var x = new Room();      
-      var resl = x.Height = 30;
-      Console.WriteLine(resl);
     }
   }
 }
